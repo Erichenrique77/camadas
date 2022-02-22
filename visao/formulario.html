@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu primeiro MVC</title>
-    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
+    <title>MVC</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
 </head>
 <body>
+    <h1 class="text-center">Informe seu animal favorito!</h1>
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 colsm-8 col-md-6">
-                <form class="mt-5">
+                <div class="alert-primary shandow">
+                  <form class="mt-5" id="form">
+                    
+
                     <div class="form-group">
                         <input type="text" name="NOME" id="NOME" class="form-control-1" placeholder="digite seu nome..">
                     </div>
@@ -31,16 +37,22 @@
                         <div class="col-12 col-sm-8 col-md-6">
 
                         </div>
-                        <button class="btn btn-primary btn-block shadow">Enviar</button>
+                        <button class="btn btn-primary btn-block shadow btn-send">Enviar</button>
                     </div>
 
-                </form>
+                </form>  
+             </div>
+                
             </div>
         </div> 
     </div>
 
 
-    <script src="../../bootstrap/js/jquery-3.6.0.js"></script>
-    <script src="../../bootstrap/js/bootstrap.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="../controle/function.js"></script>
+
+
 </body>
 </html>
