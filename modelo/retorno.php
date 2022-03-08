@@ -12,19 +12,19 @@ if (empty($NOME)){
     switch($ANIMAL){
         case '1' : $dados = array(
             "tipo" => "cachorro.jpg",
-            "mensagem" => "Seja bem-vindo, '.$NOME', sabemos que o seu animal favorito é o cachorro"
+            "mensagem" => "Seja bem-vindo, $NOME, sabemos que o seu animal favorito é o cachorro"
         );
         break;
 
         case '2' : $dados = array(
-            "tipo" => "gato.jpg",
-            "mensagem" => "Seja bem-vindo, '.$NOME', sabemos que o seu animal favorito é o Gato"
+            "tipo" => "gato.jpeg",
+            "mensagem" => "Seja bem-vindo, $NOME, sabemos que o seu animal favorito é o Gato"
         );
         break;
 
         case '3' : $dados = array(
             "tipo" => "peixe.jpg",
-            "mensagem" => "Seja bem-vindo, '.$NOME', sabemos que o seu animal favorito é o Peixe"
+            "mensagem" => "Seja bem-vindo, $NOME , sabemos que o seu animal favorito é o Peixe"
         );
         break;
     }
